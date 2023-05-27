@@ -1,0 +1,8 @@
+runtime: nodejs18
+
+env_variables:
+  DATABASE_URL: "submission-mgce-irfanal:asia-southeast2:smartgizisql1"
+
+handlers:
+- url: /.*
+  script: auto
