@@ -1,0 +1,10 @@
+air(g): 1
+Energi(Kal): 2
+Protein(g): 3
+Lemak(g): 2
+Karbohidrat(g): 2
+Kalsium(mg): 1
+Fosfor(mg): 1
+Vit_B1(mg): 1
+Vit_B2(mg): 1
+Vit_C(mg): 1
