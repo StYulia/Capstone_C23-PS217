@@ -1,13 +1,7 @@
-runtime: nodejs18
+runtime: nodejs14
+
 instance_class: F2
 
 handlers:
-  - url: /.*
-    script: auto
-
-  - url: /api/.*
-    script: auto
-    http_headers:
-      Access-Control-Allow-Origin: "https://submission-mgce-irfanal.et.r.appspot.com"
-      Access-Control-Allow-Methods: "GET, POST"
-      Access-Control-Allow-Headers: "Content-Type, Authorization"
+- url: /.*
+  script: auto
