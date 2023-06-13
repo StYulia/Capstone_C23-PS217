@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context=".NutrisiActivity">
+
+
+    <TextView
+        android:id="@+id/titleinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Data Kehamilan"
+        android:textColor="@color/teal_1000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/umur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="18dp"
+        android:hint="@string/umur"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/titleinput"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/tinggibadan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/tinggibadan"
+        android:textSize="18dp"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/umur" />
+
+    <EditText
+        android:id="@+id/beratbadan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18dp"
+        android:hint="@string/beratbadan"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tinggibadan"
+        android:autofillHints="" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_prediksi"
+        android:layout_width="115dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="200dp"
+        android:textSize="18dp"
+        android:text="@string/btnkirim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinner" />
+
+    <Spinner
+    android:id="@+id/spinner"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#2ecc71"
+    android:entries="@array/android_dropdown_arrays"
+    android:padding="5dp"
+
+        app:layout_constraintTop_toBottomOf="@id/beratbadan"
+        tools:ignore="MissingConstraints" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
