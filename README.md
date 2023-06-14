@@ -8,12 +8,12 @@ Dengan adanya aplikasi ini pun diharapkan, angka pertumbuhan stunting di Indones
 
 - [Model Machine Learning](https://github.com/StYulia/Capstone_C23-PS217/tree/ML)
 - [Cloud Computing](https://github.com/StYulia/Capstone_C23-PS217/tree/CC)
-- [Mobile Developmen](https://github.com/StYulia/Capstone_C23-PS217/tree/MD)
+- [Mobile Development](https://github.com/StYulia/Capstone_C23-PS217/tree/MD)
 - [UI/UX Smartgizi](https://www.figma.com/file/84sOtnFMNiH0fWi2a6tRGx/Capstone-2023?type=design&node-id=0%3A1&t=Tv5ijZx3UU9Kv1fd-1)
 - [Project Plan](https://docs.google.com/document/d/1XWZk3QBYkb9mkmE_qYm_wnc2wj2EVepcz31D3Wh_8h8/edit?usp=sharing)
 
 ## Link Application
-
+[Download application](https://drive.google.com/file/d/1QwrpSUkI-Z-xm0SACkLyI3M3t6NWrj_l/view?usp=drive_link)
 ## Features
 - Recomendation
 - Article
