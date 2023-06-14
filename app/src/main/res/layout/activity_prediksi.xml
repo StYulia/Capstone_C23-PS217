@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.story.PrediksiActivity">
+
+    <ImageView
+        android:id="@+id/iconprediksi"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="100dp"
+        android:src="@drawable/icon_app3"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/prediksi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/prediksi"
+        android:textSize="18dp"
+        android:fontFamily="@font/alata"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iconprediksi"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/hasilprediksi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/output_predict"
+        android:textColor="@color/teal_1000"
+        android:textStyle="bold"
+        android:layout_marginTop="18dp"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/prediksi"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/stunting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/alata"
+        android:text="@string/stuntingdef"
+        android:justificationMode="inter_word"
+        android:textColor="@color/teal_200"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/hasilprediksi"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp" />
+
+    <TextView
+        android:id="@+id/hallorekomendasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/hallo_rekomendasi"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/alata"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/stunting"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_Rekomendasi"
+        android:layout_width="202dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/btnrekomendasi"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hallorekomendasi"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

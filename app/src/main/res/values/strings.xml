@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">SMARTGIZI</string>
+    <string name="input_email">Input Your Email</string>
+    <string name="invalid_email">Invalid Format</string>
+    <string name="input_pass">Input Your Password</string>
+    <string name="pass_length">Password must be at least 6 characters</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="name_required">Name is required</string>
+    <string name="check_input">Check Your Input</string>
+    <string name="name">Name</string>
+    <string name="preview">Preview</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="description">Description</string>
+    <string name="upload">Upload</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="add_story">Add Story</string>
+    <string name="logout">Log Out</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="input_image_first">Input Your Image First!</string>
+    <string name="didnt_get_permission">Didn\'t get permission</string>
+    <string name="setting">Setting</string>
+    <string name="nutrisi" translatable="false">Nutrisi</string>
+    <string name="artikel" translatable="false">Artikel</string>
+    <string name="profil" translatable="false">Profil</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="welcome" translatable="false">Selamat Datang,</string>
+    <string name="akun" translatable="false">Selamat Datang akun,</string>
+    <string name="beranda" translatable="false">Beranda</string>
+    <string name="bantuan" translatable="false">BANTUAN</string>
+    <string name="tentang" translatable="false">TENTANG</string>
+    <string name="ML" translatable="false">Machine Learning Engineer</string>
+    <string name="ML1" translatable="false">Ades Tikaningsih M135DSY0269@bangkit.academy</string>
+    <string name="ML2" translatable="false">Salsabila Rahma Alia M295DSY0021@bangkit.academy</string>
+    <string name="CC" translatable="false">Cloud Computing Engineer</string>
+    <string name="CC1" translatable="false">Arfara Yema Samgusdian C360DSX0655@bangkit.academy</string>
+    <string name="CC2" translatable="false">Muhammad Irfan Al Rasyid C360DSX1598@bangkit.academy</string>
+    <string name="MD" translatable="false">Machine Development Engineer</string>
+    <string name="MD1" translatable="false">Siti Yulianingsih A062DSY1259@bangkit.academy</string>
+    <string name="MD2" translatable="false">Muhammad Abizard A062dsx3561@bangkit.academy</string>
+    <string name="detail_article" translatable="false">Detail Artikel</string>
+    <string name="article_name" translatable="false">Nama Artikel</string>
+    <string name="android_version" translatable="false">Layar</string>
+    <string name="android_detail" translatable="false">Detail</string>
+    <string name="android_dummy" translatable="false">Dummy Feature</string>
+    <string name="umur" translatable="false">Umur Anda</string>
+    <string name="tinggibadan" translatable="false">Tinggi Badan Anda (Meter) </string>
+    <string name="beratbadan" translatable="false">Berat Badan Anda</string>
+    <string name="btnkirim" translatable="false">KIRIM</string>
+    <string name="btnrekomendasi" translatable="false">LIHAT REKOMENDASI</string>
+    <string name="output_predict" translatable="false">Hasil</string>
+    <string name="stuntingdef" translatable="false">Stunting adalah masalah gizi kronis akibat kurangnya asupan gizi dalam jangka waktu panjang sehingga mengakibatkan terganggunya pertumbuhan pada anak. Stunting juga menjadi salah satu penyebab tinggi badan anak terhambat, sehingga lebih rendah dibandingkan anak-anak seusianya.</string>
+    <string name="prediksi" translatable="false">Berdasarkan data yang anda masukkan pada tahap sebelumnya kondisi janin anda saat ini, </string>
+    <string name="hallo_rekomendasi" translatable="false">Untuk melihat rekomendasi nutrisi untukmu klik tombol dibawah ini agar nutrisi kehamilanmu terpenuhi!</string>
+    <string name="paragraph1" translatable="false">SmartGizi merupakan sebuah aplikasi kesehatan yang diperuntukkan untuk para ibu hamil. Aplikasi ini bertujuan untuk membantu ibu hamil mendapatkan rekomendasi asupan nutrisi dan makanan yang baik serta bernutrisi agar menunjang perkembangan janin.</string>
+    <string name="paragraph2" translatable="false">Dengan adanya aplikasi ini pun diharapkan, angka pertumbuhan stunting di Indonesia dapat berkurang, dikarenakan ibu hamil dapat mengetahui apakah berpotensi melahirkan bayi dengan stunting atau tidak. Serta dapat melihat rekomendasi asupan yang baik selama kehamilan berlangsung.</string>
+    <string-array
+        name="android_dropdown_arrays">
+
+        <item> Pilih Kategori Makanan</item>
+        <item>chicken minced salad</item>
+        <item>summer squash salad</item>
+        <item>sweet chilli almonds</item>
+        <item>tricolour salad</item>
+        <item>christmas cake</item>
+        <item>fried rice with soya chunks</item>
+        <item>egg and garlic fried rice</item>
+        <item>brown rice</item>
+        <item>pineapple-coconut rice</item>
+        <item>sweet and sour chicken fried rice</item>
+        <item>broccoli souffle</item>
+        <item>carrot ginger soup</item>
+        <item>beetroot and green apple soup</item>
+        <item>lemon poppy seed cake</item>
+        <item>white chocolate and lemon pastry</item>
+        <item>red velvet banana pudding</item>
+        <item>potato casserole</item>
+        <item>chicken and dumplings</item>
+        <item>crispy Tofu balls</item>
+        <item>butter chicken</item>
+        <item>banana chips</item>
+        <item>bread with tomatoes and olives</item>
+        <item>egg in a blanket</item>
+        <item>sea food soup</item>
+        <item>fish curry</item>
+        <item>shrimp olivier</item>
+        <item>lemony crab salad with baby greens</item>
+        <item>fruit cube salad</item>
+        <item>cucumber and radish Salad</item>
+
+    </string-array>
+</resources>

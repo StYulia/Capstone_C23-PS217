@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bantuan">
+
+    <ImageView
+        android:id="@+id/iconbantuan"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/icon_app7"
+        android:layout_marginStart="125dp"
+        android:paddingTop="25dp"
+        app:layout_constraintBottom_toTopOf="@id/Title1"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <TextView
+        android:id="@+id/ML"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ML"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Title1"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/ML1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ML1"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ML"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/ML2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ML2"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ML1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/CC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CC"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ML2"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/CC1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CC1"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CC"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/CC2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CC2"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CC1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/MD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MD"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CC2"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/MD1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MD1"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MD"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/MD2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MD2"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MD1"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/Title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KONTAK SMARTGIZI"
+        android:textColor="@color/teal_1000"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="75dp"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconbantuan"
+        tools:ignore="MissingConstraints" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

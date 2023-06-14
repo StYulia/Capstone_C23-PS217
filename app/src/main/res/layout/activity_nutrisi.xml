@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context=".NutrisiActivity">
+
+
+    <TextView
+        android:id="@+id/titleinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Data Kehamilan"
+        android:textColor="@color/teal_1000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textpredict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/alata"
+        android:text="Isilah data kehamilan di bawah ini, untuk memprediksi kondisi kehamilan anda"
+        android:textColor="@color/teal_1000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleinput"
+
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/umur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+
+        android:hint="@string/umur"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/textpredict"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/tinggibadan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/tinggibadan"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/umur" />
+
+    <EditText
+        android:id="@+id/beratbadan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/beratbadan"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tinggibadan"
+        android:autofillHints="" />
+
+
+    <TextView
+        android:id="@+id/textspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilihlah Kategori makanan di bawah ini, untuk melihat rekomendasi makanan berdasarkan asupan gizi yang anda butuhkan!"
+        android:textAlignment="center"
+        android:textColor="@color/teal_1000"
+        android:textSize="15sp"
+        android:fontFamily="@font/alata"
+        android:layout_marginTop="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beratbadan"
+        app:layout_constraintVertical_bias="0.05"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_prediksi"
+        android:layout_width="114dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="156dp"
+        android:text="@string/btnkirim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinner" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#2ecc71"
+        android:entries="@array/android_dropdown_arrays"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textspinner"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

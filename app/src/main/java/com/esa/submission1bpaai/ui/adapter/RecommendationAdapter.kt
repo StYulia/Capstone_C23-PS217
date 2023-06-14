@@ -1,0 +1,41 @@
+package com.esa.submission1bpaai.ui.adapter
+
+import android.app.Activity
+import android.content.Intent
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.TextView
+import androidx.core.app.ActivityOptionsCompat
+import androidx.core.util.Pair
+import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
+import com.esa.submission1bpaai.R
+import com.esa.submission1bpaai.data.model.Story
+import com.esa.submission1bpaai.databinding.ItemStoryBinding
+import com.esa.submission1bpaai.ui.story.DetailStoryActivity
+
+class RecommendationAdapter(private val listrekomendasi: List<String>) : RecyclerView.Adapter<RecommendationAdapter.ViewHolder>() {
+
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
+
+    val view: View =
+        LayoutInflater.from(parent.context).inflate(R.layout.item_rekomendasi, parent, false)
+    return ViewHolder(view)
+}
+
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+
+        val rekomendasi = listrekomendasi[position]
+        holder.viewItem.text = rekomendasi
+    }
+
+
+    override fun getItemCount() = listrekomendasi.size
+
+    inner class ViewHolder(itemView: View) :
+        RecyclerView.ViewHolder(itemView) {
+        val viewItem: TextView = itemView.findViewById(R.id.viewitem)
+    }
+}
