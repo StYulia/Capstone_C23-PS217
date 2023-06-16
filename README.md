@@ -14,8 +14,8 @@ The model's performance is evaluated using several metrics, including accuracy a
 - Cross-Validation. To assess the model's generalization performance, cross-validation with 5-fold is used. The code shows how to perform cross-validation and calculates the mean cross-validation score.
 - Learning Curve. The learning curve of the model is plotted to visualize its performance with different training set sizes. The code generates a learning curve plot displaying the training score and validation score.
 
-<a href="https://data.amerigeoss.org" title="Learning Curve" target="_blank">
-  <img src="https://github.com/adstika20/tutorial/blob/master/learningcurve.png" alt="AmeriGEOSS Community Platform DataHub" style="width: 500px">
+<a href="https://github.com/StYulia/Capstone_C23-PS217/blob/ML/models/LogisticRegression.ipynb" title="Learning Curve" target="_blank">
+  <img src="https://github.com/adstika20/tutorial/blob/master/learningcurve.png" alt="Learning Curve" style="width: 500px">
 </a>
   
 
