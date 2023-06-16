@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/adstika20/tutorial/blob/master/Picture2.png" width="300" height="300" alt="SMARTGIZI">
+  <img src="https://github.com/StYulia/Capstone_C23-PS217/blob/ML/Picture2.png" width="300" height="300" alt="SMARTGIZI">
 </p>
 
 ## <p align="center">Your Intelligent Nutrition Recommendation App for Stunt-Free</p>
@@ -92,14 +92,14 @@ For API documentation, see the following link
 - In order to duplicate our repository to become your repository on your own github account, you need to fork this
 
 <p align="center">
-  <img src="https://github.com/adstika20/tutorial/blob/master/1fork.png" width="400" height="300" alt="SMARTGIZI">
+  <img src="https://github.com/StYulia/Capstone_C23-PS217/blob/ML/1fork.png" width="400" height="300" alt="SMARTGIZI">
 </p>
 
 - Forking repository allows you to modificate this project without affecting the original project.
 - Download code from branch "main" . Clone Repository. Click on dropdown Code and copy HTTPS link 2. Clone Repository. Click on dropdown Code and copy HTTPS link
 
 <p align="center">
-  <img src="https://github.com/adstika20/tutorial/blob/master/fork%202.png" width="400" height="300" alt="SMARTGIZI">
+  <img src="https://github.com/StYulia/Capstone_C23-PS217/blob/ML/fork%202.png" width="400" height="300" alt="SMARTGIZI">
 </p>
 
    ```bash
