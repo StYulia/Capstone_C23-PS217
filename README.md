@@ -67,7 +67,7 @@ Based on the background described above, the goal and aim of this project are:
   
 - #### Mobile Development Documentation : [MD Branch](https://github.com/StYulia/Capstone_C23-PS217/tree/MD)
   
-- #### UI/UX Design : [UI/UX Smartgizi](https://www.figma.com/file/84sOtnFMNiH0fWi2a6tRGx/Capstone-2023?type=design&node-id=0%3A1&t=Tv5ijZx3UU9Kv1fd-1)
+- #### UI/UX Design : [UI/UX Smartgizi](https://www.figma.com/file/84sOtnFMNiH0fWi2a6tRGx/Capstone-2023?type=design&node-id=0%3A1&t=fLcbc1I6UmyUrLn0-1)
   
 - #### Dataset : [Prediction](https://www.kaggle.com/datasets/debjeetdas/babies-birth-weight) & [Recommendation](https://www.kaggle.com/datasets/schemersays/food-recommendation-system)
 
