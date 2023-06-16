@@ -30,7 +30,9 @@
   - [UI/UX Design](#uiux-design)
   - [Dataset](#dataset)
 - [Deployment Link SMARTGIZI APP](#deployment-link-smartgizi-app)
+- [API Documentation](#api-documentation)
 - [Fork & Clone Repository](#fork--clone-repository)
+- [References](#references)
 - [Team Member](#team-member)
 
 ## About SMARTGIZI
@@ -76,6 +78,14 @@ Download Link SMARTGIZI APP:
 [SMARTGIZI (Google Drive)](https://drive.google.com/file/d/1QwrpSUkI-Z-xm0SACkLyI3M3t6NWrj_l/view?usp=drive_link)
 
 
+## API Documentation
+
+For API documentation, see the following link
+
+- [API Model Predict](https://smartgizi-api-y4rqqrsusq-et.a.run.app/predict)
+- [API Model Recommend](https://smartgizi-api-y4rqqrsusq-et.a.run.app/recommend)
+- [API Register](https://login-api-deploy.et.r.appspot.com/users)
+- [API Login](https://login-api-deploy.et.r.appspot.com/login)
 
 ## Fork \& Clone Repository
 
