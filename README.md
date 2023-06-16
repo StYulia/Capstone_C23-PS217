@@ -9,12 +9,15 @@
 ### Features
 
 - Splash Screen
-- Regristration
+- Login
+- Registration
 - Home Screen
+- Article Activity
 - Profile Activity
 - Nutrition Activity
-- Recommendation 
-- Article Activity
+- Prediction Feature
+- Recommendation Feature
+
 
 ### Build With
 - Kotlin
